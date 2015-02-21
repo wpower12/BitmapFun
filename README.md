@@ -1,2 +1,6 @@
 # BitmapFun
-Creating bitmaps in Python with functions, CA, and ants.
+Creating bitmaps in Python with functions and CA
+
+Topics Studied
+* Elementary Cellular Autonoma
+* Python Basics
