@@ -1,6 +1,6 @@
 # BitmapFun
 Creating bitmaps in Python with functions and CA
 
-Topics Studied
+Admissions Portfolio - Topics Studied
 * Elementary Cellular Autonoma
 * Python Basics
