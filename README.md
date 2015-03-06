@@ -9,6 +9,21 @@ Admissions Portfolio - Topics Studied
 * Elementary Cellular Automaton
 * Python Basics
 
+Usage 
+* Download cabmp.py and ca2d.py 
+* From their directory you can import in the python module
+  
+    ````
+      >>>import cabmp
+      >>>cabmp.ca2dColor(101,'colorCA',30,30,30,5)
+   ````
+* Or you can use it as a script.  
+   
+   ````
+      ./cabmp.py -2dc 101 'colorCA' 30 30 30 5
+   ````
+* Run `./cabmp.py -x` to see examples/usage
+
 Samples
 * Black/White 101x101 with random 8x8 square in middle to start - Rule 30
 
