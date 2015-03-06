@@ -1,5 +1,5 @@
 # BitmapFun
-Creating bitmaps in Python with cellular autonoma.  Can easily generate black and white or colored bitmaps using cellular autonama rules to determine pixel color.  
+Creating bitmaps in Python with cellular autonoma.  Can easily generate black and white or colored bitmaps using cellular autonama rules to determine pixel color.  A brief overview of elementary cellular autonoma can be found here http://mathworld.wolfram.com/ElementaryCellularAutomaton.html
 
 Normal representations of CA's have the first generation as the top row, and each row below it is the next generation.  In addition to this normal representation, there is a fucntion to generate the bitmap by 'wrapping' the generations around a central point.  Additional corner cases are accounted for by defining the 'parents' in a consistent way.
 
