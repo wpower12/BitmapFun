@@ -6,7 +6,7 @@ Normal representations of CA's have the first generation as the top row, and eac
 Both the normal and wrapped generators can be either black and white or colored.  To create colored bitmaps, each color channel is given its own rule, and the initial cells are each given a random 0 or 255 in each color channel. 
 
 Admissions Portfolio - Topics Studied
-* Elementary Cellular Autonoma
+* Elementary Cellular Automaton
 * Python Basics
 
 Samples
