@@ -5,17 +5,17 @@ Normal representations of CA's have the first generation as the top row, and eac
 
 Both the normal and wrapped generators can be either black and white or colored.  To create colored bitmaps, each color channel is given its own rule, and the initial cells are each given a random 0 or 255 in each color channel. 
 
-Admissions Portfolio - Topics Studied
+##Admissions Portfolio - Topics Studied
 * Elementary Cellular Automaton
 * Python Basics
 
-Usage 
+##Usage 
 * Download cabmp.py and ca2d.py 
 * From their directory you can import in the python module
   
     ````
       >>>import cabmp
-      >>>cabmp.ca2dColor(101,'colorCA',30,30,30,5)
+      >>>cabmp.ca2dcolor(101,'colorCA',30,30,30,5)
    ````
 * Or you can use it as a script.  
    
@@ -24,15 +24,18 @@ Usage
    ````
 * Run `./cabmp.py -x` to see examples/usage
 
-Samples
-* Black/White 101x101 with random 8x8 square in middle to start - Rule 30
-
+##Examples
+* Black/White 101x101 with random 9x9 square in middle to start - Rule 30
+      - `>>>cabmp.ca2dbw(101, 'bw30', 30, 4)`
+      
    ![Black White Sample](https://raw.githubusercontent.com/wpower12/BitmapFun/master/cabmp/src/bw30.bmp)
 
-* Color 101, random square in middle to start, - R, G, B all Rule 30
-
+* Color 101, random 9x9 square in middle to start, - R, G, B all Rule 30
+      - `>>>cabmp.ca2dcolor(101, 'color30', 30, 30, 30, 4)`
+      
    ![Color Sample](https://raw.githubusercontent.com/wpower12/BitmapFun/master/cabmp/src/color30.bmp)
 
-* Color 101x101, random square to start, R:30, G:135, B:230
-
+* Color 101x101, random 9x9 square to start, R:30, G:135, B:230
+      - `>>>cabmp.ca2dcolor(101, 'color30', 30, 135, 230, 4)`
+      
    ![Multi Rule Sample](https://raw.githubusercontent.com/wpower12/BitmapFun/master/cabmp/src/multicolor.bmp)
